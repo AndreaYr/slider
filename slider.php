@@ -15,6 +15,8 @@
             $msg = 'Imagen no cargada';
         }
     }
+
+    $result = $conn->query("SELECT img_path FROM carousel")
 ?>
 
 
